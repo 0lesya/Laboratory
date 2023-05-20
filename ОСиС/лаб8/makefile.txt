@@ -1,0 +1,7 @@
+tcp:
+	gcc tcpclient.c -o tcpclient
+	gcc tcpserver.c -o tcpserver
+
+udp:
+	gcc udpserver.c -o udpserver
+	gcc udpclient.c -o udpclient
